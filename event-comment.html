@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment form</title>
+</head>
+<body>
+    <h1>Recent Comments</h1>
+    <!-- Comments -->
+    <div id="comments">
+        <h3 id="userNameContainer">John Duo</h3>
+        <p id="commentTextContainer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eaque?</p>
+    </div>
+    
+    <hr>
+
+    <!-- Comment fields -->
+    <input type="text" name="" id="userName" placeholder="Name">
+    <br>
+    <textarea name="" id="commentText" cols="30" rows="10" placeholder="Comment"></textarea>
+    <!-- Send button -->
+    <button id="sendButton">Send</button>
+
+    <!-- JS file -->
+    <script src="event-comment.js"></script>
+</body>
+</html>
+
+<style>
+    #comments {
+        height: 200px;
+        overflow-y: auto;
+    }
+</style>
